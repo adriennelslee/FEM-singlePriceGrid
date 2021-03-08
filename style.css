@@ -1,0 +1,74 @@
+
+
+body{
+ font-size: 16px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container_bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+}
+
+.container_one {
+    background-color: white;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    font-size: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: hsl(71, 73%, 54%)
+}
+
+.container_two {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+}
+
+.usd {
+    font-size: 45px;
+}
+
+.sign_up {
+    color: white;
+    font-size:26px;
+    background-color: hsl(71, 73%, 54%);
+    border-color: hsl(71, 73%, 54%);
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10px;
+}
+
+.sign_up:hover {
+    background-color: hsl(168, 75%, 59%);
+    border-color: hsl(168, 75%, 59%);
+
+}
+
+.container_three {
+    background-color: hsl(179, 58%, 48%);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom-right-radius: 5px;
+}
